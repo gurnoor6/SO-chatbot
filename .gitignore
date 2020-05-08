@@ -1,0 +1,10 @@
+#word embeddings not included
+word_embeddings.tsv
+
+#thread embeddings need not to be included
+thread_embeddings_by_tags/
+
+#pkl files not to be included
+*.pkl
+
+__pycache__
