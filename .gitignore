@@ -8,3 +8,4 @@ thread_embeddings_by_tags/
 *.pkl
 
 __pycache__
+db.sqlite3
