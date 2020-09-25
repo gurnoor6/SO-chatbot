@@ -4,7 +4,9 @@ This is a chatbot to give relevant question from stack overflow as answer to mes
 This is the course project of Natural Language Processing Course on Coursera by National Research University Higher School of Economics (https://www.coursera.org/learn/language-processing/).
 
 
-The generated weights are available [here](https://drive.google.com/drive/folders/1GV6d2-n4L6dO65n_6nrXAluG3wZRk0-h?usp=sharing). The code is in this repository. The course had 5 weeks, and the mini-projects done in Week 1 and Week 3 were used to construct this final bot. 
+The generated weights are available [here](https://drive.google.com/drive/folders/1GV6d2-n4L6dO65n_6nrXAluG3wZRk0-h?usp=sharing). The code is in this repository. The course had 5 weeks, and the mini-projects done in Week 1 and Week 3 were used to construct this final bot. In the first week, we had to make `TF-IDF` representation of sentences and train a model for that. The relevant weights are present in the drive link above. In week 3, we trained the starspace model. Again, the weights are present on [this drive link](https://drive.google.com/drive/folders/1jKS1WxVQ0tj6S0SSJ39Ue9XnCdqTNTI1?usp=sharing).
+
+Most of the relevant code from Week 1 and Week 3 that was used in this project can be found in `utils.py`.
 
 The final model was deployed on AWS, and a telegram bot was constructed for easy access to users. However, I had to terminate the AWS instance due to other projects. So it is no longer available on telegram. Below are some screenshots to show how the bot looked like. 
 
