@@ -20,7 +20,7 @@ As you can see, the bot performs reasonably well on the stack overflow related q
 
 ## Running the bot on your machine
 1. Clone the repository
-2. Make sure you download the embeddings from the drive link at the top of the post. 
+2. Make sure you download the embeddings from the drive link at the top of the post (Put the ones with language label into a folder named `thread_embeddings_by_tags` and put rest of them in the same directory as `main_bot.py`). 
 2. Set up a telegram bot. 
 3. Use the command `python main_bot.py --token=<your token here>`
 4. Send messages to your bot on telegram messenger!
