@@ -21,6 +21,8 @@ As you can see, the bot performs reasonably well on the stack overflow related q
 ## Running the bot on your machine
 1. Clone the repository
 2. Make sure you download the embeddings from the drive link at the top of the post (Put the ones with language label into a folder named `thread_embeddings_by_tags` and put rest of them in the same directory as `main_bot.py`). 
-2. Set up a telegram bot. 
-3. Use the command `python main_bot.py --token=<your token here>`
-4. Send messages to your bot on telegram messenger!
+3. Set up a telegram bot. 
+4. Use the command `python main_bot.py --token=<your token here>`
+5. Send messages to your bot on telegram messenger!
+
+Also, make sure you have all the dependencies installed. There were several dependencies in this project, and I have not made an exhaustive list of them. I have attached my [pip freeze](./files/pip_freeze.txt) along. Install the required packages with the appropriate version by looking at this. Alternately, there is a docker image of the dependencies available on the course homepage. You can download and use that for this purpose.  
