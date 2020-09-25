@@ -8,11 +8,11 @@ The generated weights are available [here](https://drive.google.com/drive/folder
 
 The final model was deployed on AWS, and a telegram bot was constructed for easy access to users. However, I had to terminate the AWS instance due to other projects. So it is no longer available on telegram. Below are some screenshots to show how the bot looked like. 
 
-<img src="Screenshots/so1.PNG" height"500" width="300">
+<img src="./Screenshots/so1.PNG" height"500" width="300">
 <br>
-<img src="Screenshots/so2.PNG" height"500" width="300">
+<img src="./Screenshots/so2.PNG" height"500" width="300">
 <br>
-<img src="Screenshots/so3.PNG" height"500" width="300">
+<img src="./Screenshots/so3.PNG" height"500" width="300">
 <br>
 
 As you can see, the bot performs reasonably well on the stack overflow related questions, but is okayish when it comes to normal chit chat. This is because of the very less training data used for training it for chit chat purposes.
