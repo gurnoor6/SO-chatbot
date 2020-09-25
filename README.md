@@ -16,3 +16,10 @@ The final model was deployed on AWS, and a telegram bot was constructed for easy
 <br>
 
 As you can see, the bot performs reasonably well on the stack overflow related questions, but is okayish when it comes to normal chit chat. This is because of the very less training data used for training it for chit chat purposes.
+
+
+## Running the bot on your machine
+1. Clone the repository
+2. Set up a telegram bot. 
+3. Use the command `python main_bot.py --token=<your token here>`
+4. Send messages to your bot on telegram messenger!
